@@ -1,0 +1,228 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Work Sans",sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: azure;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 215px) {
+    .container{
+        width: 200px;
+    }
+}
+@media (min-width: 300px) {
+    .container{
+        width: 300px;
+    }
+}
+@media (min-width: 520px) {
+    .container{
+        width: 500px;
+    }
+}
+@media (min-width: 768px) {
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+        width: 1170px;
+    }
+}
+.header{
+    /*background: linear-gradient(90deg, #a0ffc0 0%, #4dffbb 70%);*/
+    width: 100%;
+    background-color: aliceblue;
+    z-index: 1;
+    padding: 5px;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header .logo{
+    padding: 5px;
+}
+.header .logo i{
+    color: #28A745;
+    font-size: 35px;
+}
+.header .logo h4{
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.header a{
+    text-decoration: none;
+    transition: 0.3s;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+a:hover{
+    transform: scale(1.1);
+}
+.main .container .main-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+.main .container{
+    width: 800px;
+    margin-top: 50px;
+    padding: 30px;
+    box-shadow: 1px 5px 20px 2px black;
+    background-color: white;
+    text-align: center;
+}
+.main .container input{
+    padding: 10px;
+    margin: 15px;
+    margin-top: 25px;
+    width: 300px;
+}
+@media (max-width: 530px) {
+        .main .container{
+            width: 350px;
+        }
+        .main .container input{
+            padding: 10px;
+            margin: 12px;
+            width: 250px;
+        }
+}
+@media (max-width: 380px) {
+    .main .container{
+        width: 300px;
+    }
+    .main .container input{
+        padding: 10px;
+        margin: 12px;
+        width: 230px;
+    }
+}
+@media (max-width: 320px) {
+    .main .container{
+        width: 250px;
+    }
+    .main .container input{
+        padding: 10px;
+        margin: 12px;
+        width: 200px;
+    }
+}
+@media (max-width: 880px) {
+    .main .container{
+        width: 500px;
+    }
+}
+@media (max-width: 600px) {
+    .main .container{
+        width: 400px;
+    }
+}
+
+@media (max-width: 435px) {
+    .main .container{
+        width: 300px;
+    }
+    .main .container select{
+        width: 200px;
+    }
+    .main .container input{
+        padding: 5px;
+        margin: 10px;
+        margin-top: 25px;
+        width: 200px;
+    }
+    .main .container .main-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+}
+@media (max-width: 350px) {
+    .main .container{
+        width: 250px;
+    }
+    .main .container select{
+        width: 150px;
+    }
+    .main .container input{
+        padding: 5px;
+        margin: 10px;
+        margin-top: 25px;
+        width: 160px;
+    }
+    .main .container .main-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+#sub{
+    font-size: 20px;
+    color: white;
+    border: 3px solid #28A745;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #28A745;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#sub:hover{
+    transform: scale(1.01);
+}
+select{
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+.form2-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+.main .container form h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form2{
+    margin-top: 15px;
+}
+#cap{
+    background-color: #dddddd;
+    width: 300px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width:544px){
+    #cap{
+        width: 200px;
+    }
+}

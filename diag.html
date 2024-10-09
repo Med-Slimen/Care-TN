@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diagnosis and Doctor Recommendation</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+      }
+      .container {
+        width: 80%;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+      h1,
+      h2 {
+        color: #333;
+      }
+      .info {
+        margin-bottom: 20px;
+      }
+      .info strong {
+        color: #007bff;
+      }
+      .doctor {
+        background-color: #eaf4ff;
+        padding: 10px;
+        border-left: 5px solid #007bff;
+      }
+      .advice {
+        background-color: #fcefe4;
+        padding: 10px;
+        border-left: 5px solid #ff8800;
+      }
+      img {
+        display: inline-block;
+      }
+      @media (min-width: 657px) {
+        img {
+          width: 750px;
+        }
+      }
+      @media (max-width: 1000px) {
+        img {
+          width: 500px;
+        }
+      }
+      @media (max-width: 657px) {
+        img {
+          width: 250px;
+        }
+      }
+      @media (max-width: 341px) {
+        img {
+          width: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Your Diagnosis</h1>
+      <div class="info">
+        <p><strong>Diagnosis:</strong> Common Cold</p>
+      </div>
+
+      <h2>Closest Doctor</h2>
+      <div class="doctor">
+        <p><strong>Dr. Ahmed Jaziri</strong> - General Practitioner</p>
+        <p>Regional Hospital Mohamed Taher Al Maamouri</p>
+        <p>Contact: 123-456-789</p>
+        <img src="images/Screenshot_3.png" width="500px" alt="" />
+      </div>
+
+      <h2>Advice for You</h2>
+      <div class="advice">
+        <p>
+          Make sure to rest, stay hydrated, and take over-the-counter medication
+          for fever and cough if needed. If symptoms worsen, visit the doctor
+          immediately.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
